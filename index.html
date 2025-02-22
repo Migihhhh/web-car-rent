@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/dist/output.css">
     <title>Royal Rides</title>
 </head>
-<body class="">
+<body>
     <nav class="bg-blue-950 pb-4">
         <div class="flex justify-between items-center h-16">
           <!-- Left side: Logo and text -->
@@ -52,41 +52,98 @@
         </div>
       </div>
 
-      <div class="flex justify-center gap-8 px-10 pr-25 pl-25">
+      <div class="flex px-26 ">
         <!-- Car 1 -->
-        <div class="bg-white p-5 shadow-lg rounded-lg w-64 inline-block m-4  ">
+        <div class="bg-white px-6 shadow-lg rounded-lg w-64 inline-block m-4  ">
           <img src="/assets/car1.png" alt="911 GT3" class="w-full h-250 object-cover rounded">
-          <h3 class="text-lg font-bold mt-3">1911 GT3</h3>
-          <p class="text-gray-600">The aerodynamic design, featuring a large rear wing and aggressive styling, ensures optimal downtones and stability at high speeds.</p>
+          <h3 class="text-lg font-bold pt-5">1911 GT3</h3>
+          <p class="text-gray-600 pb-5" >The aerodynamic design, featuring a large rear wing and aggressive styling, ensures optimal downtones and stability at high speeds.</p>
         </div>
       
         <!-- Car 2 -->
-        <div class="bg-white p-5 shadow-lg rounded-lg w-1/4">
+        <div class="bg-white px-6 shadow-lg rounded-lg w-1/4">
           <img src="/assets/car2.png" alt="SPECTRE" class="w-full h-250 object-cover rounded">
-          <h3 class="text-lg font-bold mt-3">ROYALBOYCE | SPECTRE</h3>
-          <p class="text-gray-600">Powered by a state-of-the-art electric drivetrain, the Spectre delivers instant torque and a whisper-sque ride, with an estimated range of over 380 miles on a single change.</p>
+          <h3 class="text-lg font-bold pt-5">ROYALBOYCE | SPECTRE</h3>
+          <p class="text-gray-600 pb-5">Powered by a state-of-the-art electric drivetrain, the Spectre delivers instant torque and a whisper-sque ride, with an estimated range of over 380 miles on a single change.</p>
         </div>
       
         <!-- Car 3 -->
-        <div class="bg-white p-5 shadow-lg rounded-lg w-1/4">
+        <div class="bg-white px-6 shadow-lg rounded-lg w-1/4">
           <img src="/assets/car3.png" alt="VEYRON" class="w-full h-250 object-cover rounded">
-          <h3 class="text-lg font-bold mt-3">BUGATTI | VEYRON</h3>
-          <p class="text-gray-600">A perfect blend of aerodynamics and elegance, with its iconic carven, massive air inflexive, and agnostic Bugatti grills. But wheel-drive systems and advanced engineering ensure stability and control even at extreme speeds.</p>
+          <h3 class="text-lg font-bold pt-5">BUGATTI | VEYRON</h3>
+          <p class="text-gray-600 pb-5">A perfect blend of aerodynamics and elegance, with its iconic carven, massive air inflexive, and agnostic Bugatti grills. But wheel-drive systems and advanced engineering ensure stability and control even at extreme speeds.</p>
         </div>
       </div>
 
       
-      <footer class="bg-blue-950 text-white py-4">
-        <div class="container mx-auto text-left">
-          <img src="assets/logo.png" alt="">
-          <h3 class="text-lg font-bold">Group Members</h3>
-          <p class="mt-2">Consul, Miggy C.</p>
-          <p>Legaspi, Sean Martin G.</p>
-          <p>Ramos, Leovik</p>
-          <p>Alejandro, Dirk Kobe</p>
-        </div> 
-        <img src="assets/fblogo.png" alt="">
-        <img src="assets/githublogo.png" alt="">
-      </footer>
+
+      <!-- FOOTER I COMMENT MUNA -->
+
+      <!-- <footer class="bg-blue-950 text-white p-8 m-8">
+        <div class="flex justify-between m-8 p-26">
+          <div class="text-left items-center flex flex-col">
+            <img src="assets/logo.png" alt="">
+            <h3 class="text-lg font-bold">Group Members</h3>
+            <p class="mt-2">Consul, Miggy C.</p>
+            <p>Legaspi, Sean Martin G.</p>
+            <p>Ramos, Leovik</p>
+            <p>Alejandro, Dirk Kobe</p>
+          </div> 
+          <div class="items-start flex space-x-4 p-4">
+            <img class="" src="assets/fblogo.png" alt="">
+            <img class="" src="assets/githublogo.png" alt="">
+          </div>
+        </div>
+      </footer> -->
+
+      <div class="bg-blue-950 h-screen flex flex-col items-center">
+        <!-- Heading Section -->
+        <div class="text-white text-4xl pt-10 text-center">
+          <h2 class="font-bold">Check for rental!</h2>
+        </div>
+      
+        <!-- Table Section -->
+        <div class="container mx-auto pt-20 flex justify-center">
+          <div class="overflow-x-auto">
+            <table class="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">
+              <thead>
+                <tr class="bg-gray-200 text-gray-700">
+                  <th class="py-2 px-4 border">Name</th>
+                  <th class="py-2 px-4 border">Brand</th>
+                  <th class="py-2 px-4 border">Type</th>
+                  <th class="py-2 px-4 border">Available</th>
+                  <th class="py-2 px-4 border">Due Date</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Table rows remain the same -->
+                <tr class="text-center">
+                  <td class="py-2 px-4 border">Car 1</td>
+                  <td class="py-2 px-4 border">Toyota</td>
+                  <td class="py-2 px-4 border">SUV</td>
+                  <td class="py-2 px-4 border text-green-500 font-semibold">Yes</td>
+                  <td class="py-2 px-4 border">-</td>
+                </tr>
+                <tr class="text-center bg-gray-50">
+                  <td class="py-2 px-4 border">Car 2</td>
+                  <td class="py-2 px-4 border">Honda</td>
+                  <td class="py-2 px-4 border">Sedan</td>
+                  <td class="py-2 px-4 border text-red-500 font-semibold">No</td>
+                  <td class="py-2 px-4 border">2025-03-15</td>
+                </tr>
+                <tr class="text-center">
+                  <td class="py-2 px-4 border">Car 3</td>
+                  <td class="py-2 px-4 border">Ford</td>
+                  <td class="py-2 px-4 border">Truck</td>
+                  <td class="py-2 px-4 border text-green-500 font-semibold">Yes</td>
+                  <td class="py-2 px-4 border">-</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      
   </body>
 </html>
